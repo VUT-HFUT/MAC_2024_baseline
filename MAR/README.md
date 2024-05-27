@@ -51,7 +51,7 @@ python ./submit/generate.py
 | Model | Top-1 (Action) | Top-5 (Action) | F1_mean | ckpt |
 | :-: | :-: | :-: | :-: | :-: |
 | VSwin-tiny | **58.88** | 89.72 | 64.45| [TBD.](https://) |
-| VSwin-small |**58.88** | 89.63 | **65.64**| [TBD.](https://) |
+| VSwin-small |**58.88** | 89.63 | **65.64**| [Link](https://drive.google.com/file/d/1a_4vyLWPIcpHmNUO7kKO72I1sjIMyEIm/view?usp=sharing) |
 | VSwin-base |58.17 | 89.89 | 63.55| [TBD.](https://) |
 | VSwin-large |58.35 | **90.25** | 63.94| [TBD.](https://) |
 
