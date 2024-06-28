@@ -1,0 +1,40 @@
+mmad:
+  lr: 2e-4
+  lr_backbone: 1e-5
+  batch_size: 8
+  weight_decay: 1e-2
+  lr_drop: 10
+  clip_max_norm: 0.1
+
+  # Dataset parameters
+  window_size: 48
+  num_classes: 52
+  interval: 4
+  frame_folder: data/mmad_video/frames
+  tensor_folder: data/mmad_video/mmad_tensors
+  annotation_path: datasets/mmad.json
+  frame_file_path: datasets/mmad_frames.json
+
+  # Model parameters
+  dec_layers: 2
+  dim_feedforward: 2048
+  hidden_dim: 512
+  dropout: 0.1
+  nheads: 8
+  num_queries: 24
+  num_querypoints: 30
+  model_path: ckpt/rgb_imagenet.pt
+
+  # Loss parameters
+  aux_loss: true
+  set_cost_class: 10
+  set_cost_seg: 5
+  set_cost_giou: 5
+  dice_loss_coef: 10
+  seg_loss_coef: 5
+  giou_loss_coef: 5
+  dense_loss_coef: 10
+  eos_coef: 0.1
+
+  # 
+  epochs: 50

@@ -1,0 +1,11 @@
+opencv-python
+matplotlib
+scipy
+pandas
+terminaltables
+ruamel-yaml
+h5py
+tqdm
+termcolor
+ffmpeg
+scikit-learn
