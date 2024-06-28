@@ -13,6 +13,7 @@ conda create -n mmad python=3.8
 conda activate mmad
 pip install -r requirements.txt
 ```
+---
 ## Data Preparation
 
  - Clone the repository and `cd PointTAD`.
@@ -26,10 +27,12 @@ python util/generate_frame_dict.py
 
 [Optional] Once you had the raw frames, you can convert them into tensors with `./util/frames2tensor.py` to speed up IO. By enabling `--img_tensor` in train.sh and test.sh, the model takes in image tensors instead of frames.
 
+---
 ## Training
 ```bash
 bash train.sh
 ```
+---
 
 ## Oneline Evaluation
 
@@ -48,5 +51,9 @@ python online_eval/convert.py
 
 Then, submit the `submission.zip` on the Codabench. 
 
+## Acknowledgments
+This code began with [PointTAD](https://github.com/MCG-NJU/PointTAD). We thank the developers for doing most of the heavy-lifting.
+
+---
 
 If you have any questions, please feel free to cotact us by [email](mailto:kunli.hfut@gmail.com).
