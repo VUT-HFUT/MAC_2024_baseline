@@ -11,8 +11,7 @@ from tqdm import tqdm
 dataset = 'mmad'
 
 if dataset == 'mmad':
-    # splits = ['train', 'val', 'test']
-    splits = ['val', 'test']
+    splits = ['train', 'val', 'test']
     frame_folder_path = './data/mmad_video/frames/' # path to rgb frame folder
     tensor_path = './data/mmad_video/mmad_tensors/' # path to image tensor folder
 
