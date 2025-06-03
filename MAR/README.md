@@ -50,10 +50,7 @@ python ./submit/generate.py
 
 | Model | Top-1 (Action) | Top-5 (Action) | F1_mean | ckpt |
 | :-: | :-: | :-: | :-: | :-: |
-| VSwin-tiny | **58.88** | 89.72 | 64.45| [TBD.](https://) |
-| VSwin-small |**58.88** | 89.63 | **65.64**| [Link](https://drive.google.com/file/d/1a_4vyLWPIcpHmNUO7kKO72I1sjIMyEIm/view?usp=sharing) |
-| VSwin-base |58.17 | 89.89 | 63.55| [TBD.](https://) |
-| VSwin-large |58.35 | **90.25** | 63.94| [TBD.](https://) |
+| VSwin-small |**58.88** | 89.63 | **65.64**| [Link](https://huggingface.co/kunli-cs/VSwin_MA52_Weights/tree/main/swin-small-p244-w877_in1k-pre_8xb8-amp-32x2x1-40e_ma52-rgb) |
 
 ## Acknowledgments
 This code began with [MMAction2](https://github.com/open-mmlab/mmaction2). We thank the developers for doing most of the heavy-lifting.
@@ -67,8 +64,9 @@ Please consider citing the related paper in your publications if it helps your r
   author={Guo, Dan and Li, Kun and Hu, Bin and Zhang, Yan and Wang, Meng},
   journal={IEEE Transactions on Circuits and Systems for Video Technology},
   year={2024},
-  publisher={IEEE}
-  doi={10.1109/TCSVT.2024.3358415}
+  volume={34},
+  number={7},
+  pages={6238-6252},
 }
 ```
 ---
